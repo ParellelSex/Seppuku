@@ -1,7 +1,7 @@
 local lib = {}
 local plr = game:service"Players".LocalPlayer
 
-function tp(cf)
+function lib:Teleport(cf)
     local character = plr.character
     local root = character:WaitForChild("HumanoidRootPart")
     character.HumanoidRootPart.CFrame = cf
