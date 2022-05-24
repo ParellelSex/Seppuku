@@ -9,7 +9,10 @@ end
 function lib:Teleport(cf)
     local character = plr.character
     local root = character:WaitForChild("HumanoidRootPart")
-    tp(cf) wait(1.25)
+    for i = 1,18 do
+    tp(cf) 
+    wait(1.25)
+    end
     wait(1.25) tp(cf)
     root.Anchored = true wait(0.85) root.Anchored = false
 end
