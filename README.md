@@ -1,2 +1,2 @@
-#       Seppuku !
-## Best Criminality Utility.
+#Seppuku !
+##Best Criminality Utility.
