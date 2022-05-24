@@ -37,3 +37,4 @@ end
 -- Getting Modules
 
 local UI = loadstring(GetURL("Librarys/UI.lua"))()
+local Teleport = loadstring(GetURL("Modules/Teleport.lua"))()
