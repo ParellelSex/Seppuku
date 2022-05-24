@@ -3,5 +3,5 @@
 - Autofarm
 - Teleport Bypass
 - Trusted
-- Open source
+- Open source\n
 _<3_
