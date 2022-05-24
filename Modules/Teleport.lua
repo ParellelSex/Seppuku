@@ -9,7 +9,7 @@ end
 function lib:Teleport(cf)
     local character = plr.character
     local root = character:WaitForChild("HumanoidRootPart")
-    for i = 1,32 do
+    for i = 1,50 do
     tp(cf) 
     wait(0.05)
     end
