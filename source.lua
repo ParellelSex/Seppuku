@@ -12,7 +12,7 @@ end
 local getasset = getsynasset or getcustomasset
 local requestfunc = syn and syn.request or http and http.request or http_request
 
-local function getfile(file)
+local function GetFile(file)
     local get = '%s/%s/%s/main/%s'
 	local req = requestfunc({
 		Url = string.format(get,link,user,branch,file),
@@ -35,3 +35,5 @@ else
 end
 
 -- Getting Modules
+
+local UI = loadstring(GetURL("Library/UI.lua"))()
