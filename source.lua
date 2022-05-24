@@ -26,3 +26,10 @@ local function getfile(file)
 end
 
 --Start
+
+if shared.Seppuku then
+	error("Seppuku Already Executed")
+	return
+else
+	shared.Seppuku = true
+end
