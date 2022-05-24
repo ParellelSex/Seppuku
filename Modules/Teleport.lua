@@ -11,7 +11,7 @@ function lib:Teleport(cf)
     local root = character:WaitForChild("HumanoidRootPart")
     for i = 1,18 do
     tp(cf) 
-    wait(1.25)
+    wait(0.05)
     end
     wait(1.25) tp(cf)
     root.Anchored = true wait(0.85) root.Anchored = false
